@@ -20,3 +20,26 @@ int length(char str[])
     return i-1;
 
 }
+
+//with gets function:
+
+
+/*#include<stdio.h>
+int length(char []);
+int main()
+{
+    char x[100];
+    int j;
+    j=length(x);
+    printf("length is %d",j);
+}
+int length(char str[])
+{
+    int i;
+    printf("enter words or sentence:\n");
+    gets(str);
+
+    for(i=0;str[i];i++);
+    return i;
+
+}*/
