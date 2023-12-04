@@ -1,4 +1,4 @@
-//4. Write a program to convert a given string into uppercase
+//4. Write a function to transform string into uppercase
 
 
 #include<stdio.h>
