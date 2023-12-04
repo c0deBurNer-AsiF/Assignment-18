@@ -1,4 +1,4 @@
-//5. Write a program to convert a given string into lowercase
+//5. Write a function to transform a string into lowercase
 
 
 #include<stdio.h>
