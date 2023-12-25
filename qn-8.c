@@ -2,6 +2,38 @@
 
 
 #include<stdio.h>
+#include<string.h>
+int main()
+{
+    int i,count=0;
+    char str[200];
+
+    printf("enter words or sentences:\n");
+    gets(str);
+
+    for(i=0; str[i];i++)
+    {
+
+
+            if(str[i]==' ' && str[i+1]!=' ')
+            {
+                if(str[i+1]!='\0')
+                    count++;
+            }
+
+
+    }
+    printf("Total words are %d",count+1);
+}
+
+
+
+
+
+//8. Write a function to count characters in a given string
+
+
+/*#include<stdio.h>
 void count(char [], char []);
 int main()
 {
@@ -23,4 +55,4 @@ void count(char k[], char str[])
         if(k[i]!=0)
         printf("%c ==> %d times\n",i,k[i]);
     }
-}
+}*/
